@@ -1,0 +1,67 @@
+body{
+    background-color: lightseagreen ;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+input{
+    width: 40%;
+    border: black solid 3px;
+}
+.add_button{
+    width: 10%;
+    color: white;
+    background-color: black;
+    border: gold solid 3px;
+
+}
+
+.add_button:hover{
+    color: black;
+    background-color: lightgreen;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    background-color: white;
+    border: black solid 1px;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 10px;
+    height: 100px;
+}
+
+.id_buttons{
+    border: black solid 1px;
+    height: 100px;
+    position: relative;
+    float: right;
+}
+
+.delete_button:hover{
+    background-color: red;
+}
+
+.completed_button{
+    background-color: lightcoral;
+}
+
+.completed_button:hover{
+    background-color: greenyellow;
+}
+
+.edit_button:hover{
+    background-color: lightgrey;
+}
