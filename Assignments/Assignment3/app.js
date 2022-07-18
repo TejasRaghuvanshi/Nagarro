@@ -91,12 +91,3 @@ inp.addEventListener('keydown' , function(e){
         inp.value = ""
     }
 })
-
-// let delete_btns = document.getElementsByClassName('delete_button')
-
-// for (i = 0; i < delete_btns.length; i++){
-//     delete_btns[i].onclick = function(){
-//         let curr_item = this.parentElement;
-//         lst.removeChild(curr_item);
-//     }
-// }
