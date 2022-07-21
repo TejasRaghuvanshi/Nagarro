@@ -60,7 +60,6 @@ function add_item(){
                     }
                     else if(e.which == 13){
                         curr_textbox.contentEditable = false
-                        curr_textbox.innerText = "PRESSED ENTER"
                         edit_btn.innerText = "Edit"
                     }
                 })
