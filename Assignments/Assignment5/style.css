@@ -1,0 +1,65 @@
+body{
+    background-color: lightseagreen;
+}
+
+.clickme{
+    background-color: white;
+    height: 50px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.clickme:hover{
+    background-color: lightgray;
+}
+
+.cross{
+    position: relative;
+    float: right;
+    background-color: lightcoral;
+}
+
+.cross:hover{
+    background-color: red;
+}
+
+.box{
+    background-color: greenyellow;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 530px;
+    text-align: center;
+    visibility: hidden;
+}
+
+h1{
+    display: inline-block;
+}
+
+.field{
+    font-size: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+.submit{
+    color: white;
+    background-color: black;;
+    height: 50px;
+    width: 100px;
+    /* margin-top: 20px; */
+}
+
+.submit:hover{
+    background-color: rgb(73, 73, 73);
+}
+
+.validation{
+    color: red;
+}
+
