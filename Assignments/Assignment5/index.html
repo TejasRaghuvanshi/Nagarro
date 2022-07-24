@@ -1,0 +1,52 @@
+<!-- MAKING A POP UP BOX WHICH USES FORM VALIDATION -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./jQuery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <button class="clickme">Click Me</button>
+
+    <div class="box">
+        <h1>Enter Details</h1>
+        <button class="cross">&#10006</button>
+        
+        <form action="#">
+            <div class="field">
+                <label for="username">Username</label>
+                <input type="text" id="username" class="row">
+                <h5 class="username validation"></h5>
+            </div>
+
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="text" id="email" class="row">
+                <h5 class="email validation"></h5>
+            </div>
+
+            <div class="field">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="row">
+                <h5 class="password validation"></h5>
+            </div>
+
+            <div class="field">
+                <label for="retypepasswaord">Retype Password</label>
+                <input type="password" id="retypepassword" class="row">
+                <h5 class="retypepassword validation"></h5>
+            </div>
+
+            <button class="submit">Submit</button>
+
+        </form>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
