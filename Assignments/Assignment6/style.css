@@ -1,0 +1,81 @@
+body{
+    background-color: lightseagreen
+}
+
+.outerframe{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 10%;
+    background-color: greenyellow;
+    border: black solid 5px;
+    height: 400px;
+    width: 20%;
+    text-align: center;
+}
+
+.row{
+    height: 12%;
+}
+
+/* had to write after row to override height */
+.displayscreen{
+    background-color: white;
+    border: black solid 3px;
+    display: inline-block;
+    height: 60px;
+    width: 90%;
+    text-align: right;
+    font-size: 30px;
+    overflow: scroll;
+}
+
+
+.keypad_btn{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    height: 90%;
+    width: 20%;
+    font-size: 20px;
+}
+
+.keypad_btn:hover{
+    background-color: black;
+}
+
+/* will have to write after keypad_btn so that preference to specific button's formatting */
+.digit{
+    background-color: lightgrey;
+    color: black;
+}
+
+.digit:hover{
+    background-color: gray;
+}
+
+.del{
+    background-color: lightcoral;
+    color: black;
+}
+
+.del:hover{
+    background-color: red;
+}
+
+.clear{
+    background-color: rgb(233, 233, 96);
+    color: black;
+}
+
+.clear:hover{
+    background-color: yellow;
+}
+
+.enter{
+    background-color: lightgreen;
+    color: black;
+    width: 80%;
+}
+
+.enter:hover{
+    background-color: green;
+}
