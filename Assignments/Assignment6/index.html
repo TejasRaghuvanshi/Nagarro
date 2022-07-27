@@ -1,0 +1,64 @@
+<!-- MAKING A CALCULATOR -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./jQuery.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="outerframe">
+        <h5></h5> <!-- empty line -->
+        <div class="row">
+            <div class="displayscreen">0</div>
+        </div>
+        <h5></h5><!-- empty line -->
+
+        <div class="row">
+            <button class="keypad_btn specialop" id="log10">log10</button>
+            <button class="keypad_btn op" id="exp">^</button>
+            <button class="keypad_btn specialop" id="root">root</button>
+            <button class="keypad_btn del">Del</button>
+        </div>
+
+        <div class="row">
+            <button class="keypad_btn digit" id="7">7</button>
+            <button class="keypad_btn digit" id="8">8</button>
+            <button class="keypad_btn digit" id="9">9</button>
+            <button class="keypad_btn op" id="divide">/</button>
+        </div>
+
+        <div class="row">
+            <button class="keypad_btn digit" id="4">4</button>
+            <button class="keypad_btn digit" id="5">5</button>
+            <button class="keypad_btn digit" id="6">6</button>
+            <button class="keypad_btn op" id="multiply">*</button>
+        </div>
+
+        <div class="row">
+            <button class="keypad_btn digit" id="1">1</button>
+            <button class="keypad_btn digit" id="2">2</button>
+            <button class="keypad_btn digit" id="3">3</button>
+            <button class="keypad_btn op" id="minus">-</button>
+        </div>
+
+        <div class="row">
+            <button class="keypad_btn clear">C</button>
+            <button class="keypad_btn digit" id="0">0</button>
+            <button class="keypad_btn digit" id="decimal">.</button>
+            <button class="keypad_btn op" id="plus">+</button>
+        </div>
+
+        <div class="row">
+            <button class="keypad_btn enter">Enter</button>
+        </div>
+
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
