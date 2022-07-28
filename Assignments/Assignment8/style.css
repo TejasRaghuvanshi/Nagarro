@@ -1,0 +1,78 @@
+body{
+    background-color: azure;
+}
+
+h1{
+    text-align: center;
+}
+
+.slideshow{
+    width: 60%;
+    position: relative;
+    margin: 20%;
+}
+
+img{ 
+    height: 100%; /* w.r.t parent */
+    width: 100%; /* w.r.t parent */
+}
+
+.slide{
+    border: black solid 5px;
+    height: 500px;
+    display: none;
+}
+
+
+.prev, .next{
+    color: white;
+    position: absolute;
+    top: 50%;
+    /* auto width gives width as much required for text inside it */
+    width: auto;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    /* user-select: none; */
+}
+  
+.next{
+    right: 0;
+}
+  
+.prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+}
+
+
+.dot{
+    background-color: lightgrey;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    border-radius: 50%;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+  
+.active, .dot:hover{
+    background-color: grey;
+}
+
+
+.fade{
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade{
+    from {opacity: .4}
+    to {opacity: 1}
+}
