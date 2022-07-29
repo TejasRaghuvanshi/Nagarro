@@ -1,0 +1,22 @@
+body{
+    background-color: lightseagreen;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+table{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th, td{
+    background-color: greenyellow;
+}
