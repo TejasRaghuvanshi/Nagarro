@@ -1,0 +1,19 @@
+<%- include("../partials/header") %>
+
+<div class="container">
+  <div class="jumbotron my-4 my-lg-5 text-center">
+    <h3><e>Looking for?</e></h3>
+  </div>
+
+  <div class="row justify-content-center">
+    <% categories.forEach(category => { %>
+    <a href="/products/category/<%= category.replaceAll(" ","-") %>">
+      <div class="category-container text-center mb-3">
+        <%= category %>
+      </div>
+    </a>
+    <% }) %>
+  </div>
+</div>
+
+<%- include("../partials/footer") %>
