@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>e-commerce</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <script defer src="https://kit.fontawesome.com/95f68113d2.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="data:image/png;base64,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" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/products"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="/products/category/all"
+                >All Products<span class="sr-only">(current)</span></a
+              >
+            </li>
+            
+            <li class="nav-item active">
+              <input
+                type="search"
+                class="nav-searchbar"
+                placeholder="Search products"
+              />
+              <span class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+            </li>
+          </ul>
+          <ul class="navbar-nav navbar-right">
+            <% if(!currentUser) { %>
+            <li class="nav-item active">
+              <a class="nav-link" href="/register"
+                >Sign Up <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/login"
+                >Login <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <% } else { %>
+            <!-- <% //if(currentUser && currentUser.username=='admin') { %> -->
+            <li class="nav-item active">
+              <a class="nav-link" href="/products/new"
+                >Add New Product<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <!-- <% //} %> -->
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Welcome <%= currentUser.username %>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/orders">Past Orders</a>
+                <a class="dropdown-item" href="/logout">Logout</a>
+              </div>
+            </li>
+            <% } %>
+            <li class="nav-item active">
+              <a class="nav-link cart-logo" href="/cart">
+                <i class="fas fa-shopping-cart mr-2"></i>
+                Cart
+                <span
+                  class="sr-only"
+                  >(current)
+                </span>
+                <% if(currentUser) { %>
+                <span id="cart-count"
+                  ><%= currentUser.cart.items.length %>
+                </span>
+                <% } %>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <% if(success && success.length>0) { %>
+      <div class="alert alert-success mt-3"><%= success %></div>
+      <% } %> <% if(error && error.length>0) { %>
+      <div class="alert alert-danger mt-3"><%= error %></div>
+      <% } %>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
