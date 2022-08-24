@@ -1,1 +1,1 @@
-E-commerce clone
+Project-2: E-commerce clone
